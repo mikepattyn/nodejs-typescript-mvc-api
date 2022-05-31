@@ -1,6 +1,6 @@
 {
   "name": "simple-node-typescript-inversify-rest-api",
-  "description": "A typescript REST api with dependency injection",
+  "description": "A simple REST API running on NodeJS. Supports MVC controllers and dependency injection through InversifyJS",
   "version": "0.0.1",
   "main": "server.js",
   "scripts": {
