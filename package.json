@@ -1,0 +1,29 @@
+{
+  "name": "simple-node-typescript-inversify-rest-api",
+  "description": "A typescript REST api with dependency injection",
+  "version": "0.0.1",
+  "main": "server.js",
+  "scripts": {
+    "buildstart": "tsc && node dist/server.js",
+    "build": "tsc",
+    "start": "node -r dotenv/config dist/server.js"
+  },
+  "author": "Mike Pattyn",
+  "license": "MIT",
+  "dependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/express": "^4.17.13",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "inversify": "^6.0.1",
+    "inversify-express-utils": "^6.4.3",
+    "moment": "^2.29.3",
+    "node": "^17.7.2",
+    "reflect-metadata": "^0.1.13",
+    "ts-appconfig": "^1.2.0",
+    "ts-keyof": "^1.3.0",
+    "typescript": "^4.7.2"
+  }
+}
