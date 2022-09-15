@@ -1,7 +1,4 @@
-nodejs-typescript-mvc-api
-A typescript starter template with dependency injection and controllers for nodejs.
-
-## A controller example
+## Example
 ```typescript
 @controller('/status')
 export class StatusController extends BaseHttpController implements interfaces.Controller {
