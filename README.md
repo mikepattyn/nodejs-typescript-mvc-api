@@ -1,5 +1,5 @@
-# NodeJS-MVC-REST-API
-A simple REST API running on NodeJS. Supports MVC controllers and dependency injection through InversifyJS
+nodejs-typescript-mvc-api
+A typescript starter template with dependency injection and controllers for nodejs.
 
 ## A controller example
 ```typescript
